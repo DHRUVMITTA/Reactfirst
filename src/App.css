@@ -1,0 +1,58 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav{
+  font-size: 2rem;
+  background-color: rgba(94, 137, 206, 0.84);
+  
+  box-sizing: calc(10px + 2vmin);
+}
+nav ul{
+  list-style-type:none;
+  margin-left: 1%;
+  padding: 0%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+nav ul li {
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  cursor: pointer;
+  padding: 0.5rem;
+  text-align: center;
+  flex:  auto ;
+  display:block;
+  }
+  a{
+      color: white;
+      text-decoration: none;
+  }
+nav ul li a:hover{
+  /* background-color: grey; */
+  color:gold;
+
+}
+/* .logo{
+  color: greenyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+.slideshow-container{
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  width:100% 
+
+}
