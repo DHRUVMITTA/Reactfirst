@@ -2,7 +2,7 @@ function Navbar(props) {
     return (
       <div >
           <nav>
-        <div class="logo">
+        <div className="logo">
           hi {props.name}
           <h2>{props.para}</h2>
         </div>
